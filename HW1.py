@@ -1,4 +1,4 @@
-import threading
+import threading 
 
 def writer(x, event_for_wait, event_for_set):
     for i in xrange(10):
